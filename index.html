@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ThunderTecx</title>
+
+  <!-- ==============================================================
+       FONTS & ICONS
+       ============================================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==============================================================
+       1. HEADER & NAVBAR (Pamoja na Theme Switcher)
+       ============================================================== -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">ThunderTecx<span>.</span></a>
+
+      <!-- Menu Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-item active">HOME</a></li>
+        <li><a href="#about" class="nav-item">ABOUT</a></li>
+        <li><a href="#services" class="nav-item">SERVICES</a></li>
+        <li><a href="#projects" class="nav-item">PROJECTS</a></li>
+        <li><a href="#skills" class="nav-item">SKILLS</a></li>
+        <li><a href="#contact" class="nav-item">CONTACT</a></li>
+      </ul>
+
+      <!-- Controls: Theme Toggle & Mobile Menu -->
+      <div class="nav-controls">
+        <button id="theme-toggle" class="theme-btn" title="Toggle Theme" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon" id="theme-icon"></i>
+        </button>
+
+        <button class="menu-btn" id="menu-btn" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ==============================================================
+         2. HERO SECTION
+         ============================================================== -->
+    <section class="hero section reveal" id="home">
+      <div class="container hero-grid">
+        
+        <!-- Left: Intro & Quick Stats -->
+        <div class="hero-left">
+          <p class="welcome-text">Welcome</p>
+          <h1 class="hero-title">Hello Everyone I'm <span>Thunder</span>Tecx</h1>
+          <p class="hero-desc">
+            I build high-impact business websites, mobile payment integrations (M-Pesa/Tigo Pesa), custom management systems, and automated AI solutions for modern businesses.
+          </p>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <h3>10+</h3>
+              <p>Services Offered</p>
+            </div>
+            <div class="stat-card">
+              <h3>100%</h3>
+              <p>Client Focus</p>
+            </div>
+            <div class="stat-card">
+              <h3>24 / 7</h3>
+              <p>System Uptime</p>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Hire me <i class="fa-regular fa-paper-plane"></i></a>
+          </div>
+
+          <div class="social-icons">
+            <a href="https://www.github.com/Baraka-Kamande" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/thundertecx?stkn=OXNqN2IwNXJ1MDZi" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://vm.tiktok.com/ZS9AN7yue794j-B6va1/" target="_blank" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <!-- Right: Neon Mockup Frame -->
+        <div class="hero-right">
+          <div class="mockup-container">
+            <div class="floating-badge badge-top">
+              <i class="fa-solid fa-bolt"></i> High Performance
+            </div>
+
+            <div class="mockup-frame">
+              <div class="mockup-screen">
+                <div class="glow-orb"></div>
+                <i class="fa-solid fa-code center-icon"></i>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom">
+              <i class="fa-solid fa-mobile-screen-button"></i> Mobile Ready
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==============================================================
+         3. ABOUT ME SECTION
+         ============================================================== -->
+    <section class="about section reveal" id="about">
+      <div class="container">
+        <h2 class="section-heading">About <span>me</span></h2>
+
+        <div class="about-grid">
+          <div class="about-left">
+            <div class="mockup-frame small-mockup">
+              <div class="mockup-screen">
+                <div class="experience-pill">Available for Projects</div>
+                <div class="glow-orb"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-right">
+            <p class="about-bio">
+              I am a software builder and Diploma in Computer Science student at IFM. I specialize in turning complex operational problems into reliable digital products—from localized payment gateways to full enterprise management web apps and WhatsApp automation.
+            </p>
+
+            <div class="info-card">
+              <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <h4>My Location</h4>
+                <p>Dar es Salaam, Tanzania</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <h4>My Phone Number</h4>
+                <p>+255 742 944 776</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================================
+         4. HIGH-PAYING SERVICES SECTION (Updated & Extended)
+         ============================================================== -->
+    <section class="services section reveal" id="services">
+      <div class="container">
+        <h2 class="section-heading"><span>Services</span></h2>
+
+        <div class="services-grid">
+          
+          <!-- Service 1: Web Development & Maintenance -->
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+            <h3>Website Development & Maintenance</h3>
+            <p>High-converting business websites, booking platforms (clinics/hotels/tours), and ongoing hosting & maintenance packages.</p>
+            <div class="tech-tags">
+              <span>SME Sites</span>
+              <span>E-Commerce</span>
+              <span>Maintenance</span>
+            </div>
+          </div>
+
+          <!-- Service 2: Mobile Money Integration -->
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-money-bill-transfer"></i></div>
+            <h3>Mobile Money & Payment Gateways</h3>
+            <p>Seamless checkout integrations for M-Pesa, Tigo Pesa, Airtel Money, and card payments on e-commerce and SaaS platforms.</p>
+            <div class="tech-tags">
+              <span class="tag-primary">M-Pesa API</span>
+              <span class="tag-primary">Tigo Pesa</span>
+              <span class="tag-primary">Airtel Money</span>
+            </div>
+          </div>
+
+          <!-- Service 3: Custom Web Applications -->
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-cubes"></i></div>
+            <h3>Custom Web Applications & POS</h3>
+            <p>Custom-built inventory management, Point of Sale (POS) systems for shops/warehouses, and clinic appointment booking portals.</p>
+            <div class="tech-tags">
+              <span>POS Systems</span>
+              <span>Inventory</span>
+              <span>Booking</span>
+            </div>
+          </div>
+
+          <!-- Service 4: Database Management -->
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+            <h3>Database Architecture & Management</h3>
+            <p>Robust relational database modeling, query optimization, automated backup routines, and high-security transactional storage.</p>
+            <div class="tech-tags">
+              <span>MySQL</span>
+              <span>PostgreSQL</span>
+              <span>Optimization</span>
+            </div>
+          </div>
+
+          <!-- Service 5: AI & WhatsApp Business Automation -->
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-robot"></i></div>
+            <h3>AI Integration & WhatsApp Automation</h3>
+            <p>Automated WhatsApp order-taking, customer service bots, AI-driven lead sorting, and broadcast reminder systems.</p>
+            <div class="tech-tags">
+              <span class="tag-primary">WhatsApp Bots</span>
+              <span class="tag-primary">AI Chatbots</span>
+              <span class="tag-primary">Auto-Reminders</span>
+            </div>
+          </div>
+
+          <!-- Service 6: Data Migration & Digitization -->
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-file-excel"></i></div>
+            <h3>Data Migration & Digitization</h3>
+            <p>Transforming manual paper records into secure digital cloud systems with custom Excel/Sheets automated workflows.</p>
+            <div class="tech-tags">
+              <span>Paper to Digital</span>
+              <span>Excel Automation</span>
+              <span>Cloud Sync</span>
+            </div>
+          </div>
+
+          <!-- Service 7: EdTech Platforms -->
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3>EdTech & School Management Systems</h3>
+            <p>Student portals, grade reporting, fee tracking, attendance dashboards, and online examination engines.</p>
+            <div class="tech-tags">
+              <span>School Portals</span>
+              <span>Grading</span>
+              <span>Online Exams</span>
+            </div>
+          </div>
+
+          <!-- Service 8: HealthTech Solutions -->
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-house-medical"></i></div>
+            <h3>HealthTech & Pharmacy Systems</h3>
+            <p>Lightweight patient record management (EMR), clinic queue schedulers, and pharmacy stock & expiry tracking systems.</p>
+            <div class="tech-tags">
+              <span>Patient Records</span>
+              <span>Pharmacy POS</span>
+              <span>Appointments</span>
+            </div>
+          </div>
+
+          <!-- Service 9: App Maintenance & Bug Fixing -->
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-wrench"></i></div>
+            <h3>App Maintenance & Bug Fixing</h3>
+            <p>Code audits, performance speedups, API repairs, security patches, and feature additions for existing applications.</p>
+            <div class="tech-tags">
+              <span>Bug Fixes</span>
+              <span>Refactoring</span>
+              <span>Upgrades</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================================
+         5. PROJECTS SECTION
+         ============================================================== -->
+    <section class="projects section reveal" id="projects">
+      <div class="container">
+        <h2 class="section-heading">Featured <span>Projects</span></h2>
+
+        <div class="projects-grid">
+          
+          <div class="project-card">
+            <div class="project-preview">
+              <i class="fa-solid fa-cash-register preview-icon"></i>
+            </div>
+            <div class="project-info">
+              <h3>Pharmacy & Retail POS System</h3>
+              <p>Full Point of Sale system with inventory tracking, invoice printing, and M-Pesa QR payments.</p>
+              <div class="tech-tags">
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-preview">
+              <i class="fa-solid fa-calendar-check preview-icon"></i>
+            </div>
+            <div class="project-info">
+              <h3>Clinic Appointment & EMR Portal</h3>
+              <p>Digital patient queue and record system with automated SMS/WhatsApp appointment reminders.</p>
+              <div class="tech-tags">
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-preview">
+              <i class="fa-solid fa-graduation-cap preview-icon"></i>
+            </div>
+            <div class="project-info">
+              <h3>School Attendance & Grading System</h3>
+              <p>Web portal for teachers to upload grades, calculate GPA, and generate printable PDF report cards.</p>
+              <div class="tech-tags">
+              
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================================
+         6. SKILLS SECTION
+         ============================================================== -->
+    <section class="skills section reveal" id="skills">
+      <div class="container">
+        <h2 class="section-heading">Technical <span>Skills</span></h2>
+
+        <div class="skills-grid">
+          <div class="skill-pill">
+            <i class="fa-brands fa-html5 skill-icon icon-html"></i>
+            <span>HTML5</span>
+          </div>
+
+          <div class="skill-pill">
+            <i class="fa-brands fa-css3-alt skill-icon icon-css"></i>
+            <span>CSS3</span>
+          </div>
+
+          <div class="skill-pill">
+            <i class="fa-brands fa-js skill-icon icon-js"></i>
+            <span>JavaScript</span>
+          </div>
+
+          <div class="skill-pill">
+            <i class="fa-brands fa-python skill-icon icon-python"></i>
+            <span>Python</span>
+          </div>
+
+          <div class="skill-pill">
+            <i class="fa-brands fa-php skill-icon icon-php"></i>
+            <span>PHP</span>
+          </div>
+
+          <div class="skill-pill">
+            <i class="fa-solid fa-database skill-icon icon-db"></i>
+            <span>PostgreSQL</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================================
+         7. CONTACT SECTION (Netlify Forms Enabled)
+         ============================================================== -->
+    <section class="contact section reveal" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          
+          <div class="contact-left">
+            <h2 class="section-heading text-left">Contact <span>Me</span></h2>
+            <p class="contact-subtext">
+              Have a project in mind, an inquiry about web development, or need mobile money and automation integration? Let's discuss!
+            </p>
+
+            <a href="https://wa.me/255742944776" target="_blank" class="contact-card">
+              <div class="contact-card-icon"><i class="fa-brands fa-whatsapp"></i></div>
+              <div>
+                <h4>WhatsApp Direct</h4>
+                <p>+255 742 944 776</p>
+              </div>
+            </a>
+
+            <div class="contact-card">
+              <div class="contact-card-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+              <div>
+                <h4>Location</h4>
+                <p>Dar es Salaam, Tanzania</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <h2 class="section-heading text-left">Send <span>Inquiry</span></h2>
+            <form class="email-form" id="contact-form" name="contact" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" />
+              
+              <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <textarea name="message" rows="4" placeholder="Describe your project (e.g. Booking site, M-Pesa integration, POS...)" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary full-width">Send Message</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==============================================================
+       8. FOOTER
+       ============================================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 ThunderTecx. All rights reserved.</p>
+      <a href="#home" class="back-to-top" title="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
